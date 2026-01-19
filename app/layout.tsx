@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Source_Code_Pro } from "next/font/google";
 import { RootProvider } from "./rootProvider";
-import Script from 'next/script';
 import "./globals.css";
 
 const inter = Inter({
@@ -27,18 +26,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${sourceCodePro.variable}`}>
-        <Script
-          id="base-app-id"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              const meta = document.createElement('meta');
-              meta.name = 'base:app_id';
-              meta.content = '696d16d7c0ab25addaaaf46a';
-              document.head.appendChild(meta);
-            `
-          }}
-        />
         <RootProvider>{children}</RootProvider>
       </body>
     </html>
