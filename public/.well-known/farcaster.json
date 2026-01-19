@@ -1,0 +1,20 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjQyNjU5MSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweEU0QjNkNzIxZjFiODYyZWI5OEIyNkY5MjgyNDVCNmEyODFDNWY2Q0YifQ",
+    "payload": "eyJkb21haW4iOiJkb25hdGUtcm9uaW4udmVyY2VsLmFwcCJ9",
+    "signature": "OSFIA52n+Jm6oUe/ZZboPA7y18HrrokzStt47IsOQ40927KjK4PGVGwHOVka0vb1z2IVet0Nxb1S/bOshAeJxBw="
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Donate Ronin",
+    "homeUrl": "https://donate-ronin.vercel.app/",
+    "iconUrl": "https://donate-ronin.vercel.app/icon.png?v=2",
+    "splashImageUrl": "https://donate-ronin.vercel.app/splash.png",
+    "splashBackgroundColor": "#0052FF",
+    "subtitle": "ETH tips on Base",
+    "description": "Send a quick ETH tip to support Maronin.",
+    "primaryCategory": "finance",
+    "tags": ["base", "donate", "tips", "eth"],
+    "buttonTitle": "Open"
+  }
+}
