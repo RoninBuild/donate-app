@@ -15,6 +15,7 @@ export default function Head() {
       <meta property="fc:frame:button:1" content="Donate" />
       <meta property="fc:frame:button:1:action" content="launch_miniapp" />
       <meta property="fc:frame:button:1:target" content={APP_URL} />
+      <meta name="base:app_id" content="696d16d7c0ab25addaaaf46a" />
     </>
   );
 }
