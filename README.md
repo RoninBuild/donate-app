@@ -1,39 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-onchain`](https://www.npmjs.com/package/create-onchain).
+# Donate Ronin
 
+A Base Mini App for one-tap crypto donations. Connect a wallet, pick a preset
+amount, and send ETH on Base in a single transaction.
 
-## Getting Started
+It runs as a Farcaster / Base mini app, so it opens and works directly inside
+social feeds and the Base App instead of as a standalone site.
 
-First, install dependencies:
+## Stack
 
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
-```
+Next.js, TypeScript, OnchainKit, wagmi, viem, Farcaster Mini App SDK.
+Network: Base.
 
-Next, run the development server:
+## Live
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-
-## Learn More
-
-To learn more about OnchainKit, see our [documentation](https://docs.base.org/onchainkit).
-
-To learn more about Next.js, see the [Next.js documentation](https://nextjs.org/docs).
+https://donate-app-lac.vercel.app
